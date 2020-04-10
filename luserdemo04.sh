@@ -20,3 +20,5 @@ useradd -c "${NAME}" -m ${USER_NAME}
 #Force that user to change their password on first login
 passwd -e ${USER_NAME}
 
+#some random comment
+
