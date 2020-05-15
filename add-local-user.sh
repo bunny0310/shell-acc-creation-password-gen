@@ -27,7 +27,7 @@ then
         echo "Error in password setting"
         exit 1
 fi
-
+passwd -e ${USERNAME}
 echo "Account created successfully!"
 echo "Username: ${USERNAME}"
 echo "Password: ${PASSWORD}"
